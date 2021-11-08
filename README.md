@@ -1,45 +1,47 @@
-# - File Rename Bot
-
-<p align="center">
-  <a href="https://github.com/No-OnE-Kn0wS-Me/FileRenameBot/stargazers">
-    <img src="https://img.shields.io/github/stars/No-OnE-Kn0wS-Me/FileRenameBot?style=social">
-
-  </a>
-  
-  <a href="https://github.com/No-OnE-Kn0wS-Me/FileRenameBot/fork">
-    <img src="https://img.shields.io/github/forks/No-OnE-Kn0wS-Me/FileRenameBot?label=Fork&style=social">
-
-  </a>  
-</p>
-
-->**An Multi purpose Bot Which Can :-**
-* ✅Rename Telegram Files Into Any Formats <pre>(Like Renaming Video Files Into Audio File Or Images Into Stickers, Can Be Rename Any File To Most Of The Available Extensions 🤔 I gus) </pre>
-* ✅Convert Files into Video
-* ✅Supports Custom Caption/ Permanent Thumbnail
-* ✅Force Subscribe To Targeted Chat
-
-->**Demo Bots**
-
-➡️[BOT 1](https://t.me/rename1robot)    
-➡️[BOT 2](https://t.me/rename2robot)    
-➡️[BOT 3](https://t.me/rename3robot)    
-➡️[BOT 4](https://t.me/rename4robot)   
-➡️[BOT 5](https://t.me/rename5robot)
+# Auto Filter Bot
 
 
-# Deploy straight to Heroku!
+ 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/No-OnE-Kn0wS-Me/FileRenameBot)
 
-# Required Strings :-
+ㅤㅤㅤㅤㅤㅤ
+ㅤㅤㅤㅤㅤㅤㅤ
+MIT license Open Source
 
-* -> `TG_BOT_TOKEN`<br> **Your Bot Token Taken From [@BotFather](https://t.me/botfather)**
+You can call this as an Auto Filter Bot if you like :D
+Bot simply search for the files from provided channel according to given query and gives link to those files as buttons!
+How to use the bot
+Add user account to your channel !
+Add bot to group with admin rights.
+Deploy the bot.
+Once deployed and bot is started, send a message to channel (must do step)
+Bot will work now :)
 
-* -> `UPDATE_CHANNEL`<br> **An Channel Username Which You Want to Use As An ForceSub Channel Put It Without @**
 
-* -> `APP_ID`__And__ `API_HASH`<br>**Get It From [Here](http://www.my.telegram.org) or [@UseTGXBot](http://www.telegram.dog/UseTGXBot)**
+Thanks to InfotelGroup and Erich Daniken for the video
 
-## Credits, and Thanks to Beloved Developers ;
+Any bugs or errors or suggestions, report at TroJanzSupport
+Installation
+Deploy to Heroku
+Deploy
 
-* [SpEcHlDe](https://telegram.dog/SpEcHlDe) For [AnydlBot](https://github.com/SpEcHiDe/AnyDLBot)
-* [Dan](https://github.com/delivrance) For This Mind Blowing [Library](https://github.com/pyrogram/pyrogram)
+Deploy in your vps
+git clone https://github.com/TroJanzHEX/Auto-Filter-Bot
+cd Auto-Filter-Bot
+pip3 install -r requirements.txt
+# <Create config.py appropriately>
+python3 main.py
+Configs
+TG_BOT_TOKEN - Get bot token from @BotFather
+
+APP_ID - From my.telegram.org (or @UseTGXBot)
+
+API_HASH - From my.telegram.org (or @UseTGXBot)
+
+TG_USER_SESSION - A pyrogram user session string. Generate by clicking here
+
+MAINCHANNEL_ID - Obtain ID of Channel by forwarding a message from your channel to ChannelIDHEXbot
+
+
+
+And as always, 
